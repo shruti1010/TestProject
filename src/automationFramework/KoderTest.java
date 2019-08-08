@@ -48,8 +48,8 @@ public class KoderTest {
 			driver.findElement(By.xpath("/html/body/div[1]/div/div[1]/div[2]/div/div/div/div/div[2]/form/div[4]/div[2]/label")).click();
 			driver.findElement(By.xpath("//*[@id=\"signUpForm\"]/div[7]/button")).click();
 		}
-//		@AfterTest
-//		public void closeBrowser() {
-//			driver.close();
-//		}
+		@AfterTest
+		public void closeBrowser() {
+			driver.close();
+		}
 	}

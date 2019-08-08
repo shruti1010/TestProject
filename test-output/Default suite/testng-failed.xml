@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automationFramework.NewTest">
+      <class name="automationFramework.KoderContactForm">
         <methods>
-          <include name="login"/>
+          <include name="contact"/>
+          <include name="closeBrowser"/>
+          <include name="signUp"/>
+          <include name="browserInitialization"/>
         </methods>
-      </class> <!-- automationFramework.NewTest -->
+      </class> <!-- automationFramework.KoderContactForm -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

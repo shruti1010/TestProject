@@ -7,7 +7,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -38,7 +37,6 @@ public class KoderContactForm {
 	public void signUp(){
 		driver.get("http://www.koder.com/signup");
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		
 		driver.findElement(By.id("firstName")).sendKeys("test");
 		driver.findElement(By.id("lastName")).sendKeys("test");
 		driver.findElement(By.id("emailAddress")).sendKeys("test@koder.com");

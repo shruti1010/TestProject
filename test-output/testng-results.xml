@@ -2,23 +2,27 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-08-08T07:12:33Z" name="koder" finished-at="2019-08-08T07:13:16Z" duration-ms="43647">
+  <suite started-at="2019-08-08T10:34:11Z" name="koder" finished-at="2019-08-08T10:34:39Z" duration-ms="27969">
     <groups>
     </groups>
-    <test started-at="2019-08-08T07:12:33Z" name="contact" finished-at="2019-08-08T07:13:16Z" duration-ms="43647">
+    <test started-at="2019-08-08T10:34:11Z" name="contact" finished-at="2019-08-08T10:34:39Z" duration-ms="27969">
       <class name="automationFramework.KoderTest">
-        <test-method is-config="true" signature="browserInitialization()[pri:0, instance:automationFramework.KoderTest@6c80d78a]" started-at="2019-08-08T07:12:33Z" name="browserInitialization" finished-at="2019-08-08T07:12:36Z" duration-ms="2836" status="PASS">
+        <test-method is-config="true" signature="browserInitialization()[pri:0, instance:automationFramework.KoderTest@525f1e4e]" started-at="2019-08-08T10:34:11Z" name="browserInitialization" finished-at="2019-08-08T10:34:14Z" duration-ms="2844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialization -->
-        <test-method signature="contact()[pri:1, instance:automationFramework.KoderTest@6c80d78a]" started-at="2019-08-08T07:12:36Z" name="contact" finished-at="2019-08-08T07:13:14Z" duration-ms="37969" status="PASS">
+        <test-method signature="contact()[pri:1, instance:automationFramework.KoderTest@525f1e4e]" started-at="2019-08-08T10:34:14Z" name="contact" finished-at="2019-08-08T10:34:35Z" duration-ms="21001" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contact -->
-        <test-method signature="signUp()[pri:2, instance:automationFramework.KoderTest@6c80d78a]" started-at="2019-08-08T07:13:14Z" name="signUp" finished-at="2019-08-08T07:13:16Z" duration-ms="2794" status="PASS">
+        <test-method signature="signUp()[pri:2, instance:automationFramework.KoderTest@525f1e4e]" started-at="2019-08-08T10:34:35Z" name="signUp" finished-at="2019-08-08T10:34:39Z" duration-ms="4002" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automationFramework.KoderTest@525f1e4e]" started-at="2019-08-08T10:34:39Z" name="closeBrowser" finished-at="2019-08-08T10:34:39Z" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
       </class> <!-- automationFramework.KoderTest -->
     </test> <!-- contact -->
   </suite> <!-- koder -->

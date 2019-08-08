@@ -5,6 +5,7 @@
     <classes>
       <class name="automationFramework.KoderTest">
         <methods>
+          <include name="signUp"/>
           <include name="browserInitialization"/>
           <include name="contact"/>
           <include name="closeBrowser"/>

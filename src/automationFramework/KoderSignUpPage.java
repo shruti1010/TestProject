@@ -19,7 +19,6 @@ public class KoderSignUpPage {
 				driver.manage().window().maximize();
 				driver.get("http://www.koder.com/signup");
 				driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-				
 				driver.findElement(By.id("firstName")).sendKeys("test");
 				driver.findElement(By.id("lastName")).sendKeys("test");
 				driver.findElement(By.id("emailAddress")).sendKeys("test@koder.com");
