@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-08-06T12:54:08Z" name="Default suite" finished-at="2019-08-06T12:54:37Z" duration-ms="28847">
+  <suite started-at="2019-08-08T07:12:33Z" name="koder" finished-at="2019-08-08T07:13:16Z" duration-ms="43647">
     <groups>
     </groups>
-    <test started-at="2019-08-06T12:54:08Z" name="Default test" finished-at="2019-08-06T12:54:37Z" duration-ms="28847">
-      <class name="automationFramework.NewTest">
-        <test-method signature="login()[pri:0, instance:automationFramework.NewTest@6973b51b]" started-at="2019-08-06T12:54:08Z" name="login" finished-at="2019-08-06T12:54:37Z" duration-ms="28818" status="PASS">
+    <test started-at="2019-08-08T07:12:33Z" name="contact" finished-at="2019-08-08T07:13:16Z" duration-ms="43647">
+      <class name="automationFramework.KoderTest">
+        <test-method is-config="true" signature="browserInitialization()[pri:0, instance:automationFramework.KoderTest@6c80d78a]" started-at="2019-08-08T07:12:33Z" name="browserInitialization" finished-at="2019-08-08T07:12:36Z" duration-ms="2836" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- automationFramework.NewTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- browserInitialization -->
+        <test-method signature="contact()[pri:1, instance:automationFramework.KoderTest@6c80d78a]" started-at="2019-08-08T07:12:36Z" name="contact" finished-at="2019-08-08T07:13:14Z" duration-ms="37969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+        <test-method signature="signUp()[pri:2, instance:automationFramework.KoderTest@6c80d78a]" started-at="2019-08-08T07:13:14Z" name="signUp" finished-at="2019-08-08T07:13:16Z" duration-ms="2794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+      </class> <!-- automationFramework.KoderTest -->
+    </test> <!-- contact -->
+  </suite> <!-- koder -->
 </testng-results>
